@@ -1,0 +1,25 @@
+.home-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.home-button-write{
+    border: 0;
+    background-color: #FF1F44;
+    padding: 15px 25px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.home-content{
+    margin: 10px 100px;
+    padding: 10px 100px;
+    text-align: center;
+}
+.home-content p{
+    color: rgb(153, 153, 153);
+}
+.home-button-write:hover{
+    background-color: #FF4564;
+}

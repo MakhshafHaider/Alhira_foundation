@@ -1,0 +1,44 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.navbar-link{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-top: 45px;
+}
+
+.navbar-blog,.navbar-about, .navbar-contact{
+    padding: 10px 20px;
+    background-color: white;
+    cursor: pointer;
+    border: 0px;
+}
+.navbar-contact{
+ margin-right: 50px;
+}
+
+.navbar-contact:hover, .navbar-blog:hover, .navbar-about:hover{
+    background-color: #FFD2DA;
+    border-radius: 3px;
+    color: #FF1F44;
+}
+.navbar-image-line{
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 90px;
+}
+.navbar-image-logo{
+  margin-left: 30px;
+}
+.footer{
+ text-align: center;
+
+ 
+
+}
